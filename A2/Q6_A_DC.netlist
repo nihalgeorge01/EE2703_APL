@@ -1,0 +1,15 @@
+.circuit
+V1 n1 GND dc 10
+R1 n1 n2 2
+R2 n2 GND 3
+R3 n2 n3 5
+RL n3 GND 1
+.end
+
+
+Solutions
+
+V_n1:  1.e+01 + 0.e+00j
+V_n2:  5.00000e+00 + 0.e+00j
+V_n3:  8.33333e-01 + 0.e+00j
+I_V1:  -2.5e+00 + 0.e+00j
